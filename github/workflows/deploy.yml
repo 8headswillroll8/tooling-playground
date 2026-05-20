@@ -1,5 +1,0 @@
-- name: Deploy with token
-  env:
-     API_KEY: ${{ secrets.MY_SECRET_TOKEN }}
-  run: |
-    echo "Deploying with $API_KEY" # or pass it into your build or deploy command
