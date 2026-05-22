@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "start": "live-server --port=5500",
     "test:unit": "vitest",
-    "test:e2e": "npx playwright test --ui"
+    "test:e2e": "npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
