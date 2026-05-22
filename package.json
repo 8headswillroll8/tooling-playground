@@ -6,9 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "live-server --port=5500",
+    "test:unit": "vitest",
+    "test:e2e": "npx playwright test --ui"
   },
   "devDependencies": {
-    "vite": "^8.0.12"
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "@vitest/browser": "^4.1.7",
+    "dotenv": "^17.4.2",
+    "jsdom": "^29.1.1",
+    "live-server": "^1.2.2",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.7"
   }
 }
